@@ -29,3 +29,5 @@ Go to `Preferences -> Key Bindings - User`. Add following key binding:
 When you save coco file the output view will appear only on compile error.
 
 And keep in mind that I'm no Python guru!
+
+If you want to add new compiler make Pull request or put your request [here](https://github.com/jan-swiecki/sublime-text-2-save-and-compile/issues).
