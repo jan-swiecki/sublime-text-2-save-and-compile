@@ -9,10 +9,7 @@ class SaveAndCompileCommand(sublime_plugin.TextCommand):
 		filename = self.view.file_name()
 
 		if filename.endswith('.less'):
-
 			out_filename = re.sub(".less$",".css",filename)
-
-			print "lessc",filename,out_filename
 
 			self.view.window().run_command('my_exec',{
 				"cmd": ["lessc",filename,out_filename],
